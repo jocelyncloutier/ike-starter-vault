@@ -1,7 +1,7 @@
 ---
 created: 2026-03-10
 authorship: ai-generated
-map: ["[[IKE Vault Guide]]"]
+map: ["[[Getting Started Map]]"]
 tags:
   - topic/vault-structure
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/2026-03-10.md",
+                "file": "Atlas/Getting Started Map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-10"
+              "title": "Getting Started Map"
             }
           }
         ]
@@ -103,10 +103,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Calendar/2026-03-10.md"
+                "file": "Atlas/Getting Started Map.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-03-10"
+              "title": "File properties for Getting Started Map"
             }
           },
           {
@@ -200,22 +200,5 @@
     }
   },
   "active": "welcome-leaf",
-  "lastOpenFiles": [
-    "Calendar/2026-03-11.md",
-    "x/Templates/daily-note-template.md",
-    "x/Templates/effort-template.md",
-    "x/Templates/default-inbox-note-template.md",
-    "x/Templates/default-note-template.md",
-    "x/Templates/source-template.md",
-    "x/Templates/weekly-review-template.md",
-    "x/Templates/map-template.md",
-    "x/Templates/monthly-review-template.md",
-    "CLAUDE.md",
-    "Calendar/2026-03-10.md",
-    "+/Test of ai summary.md",
-    "+/What Goes in +.md",
-    "x/Attachments/Pasted image 20260310162358.png",
-    "Efforts/What Goes in Efforts.md",
-    "Atlas/Getting Started.md"
-  ]
+  "lastOpenFiles": []
 }
