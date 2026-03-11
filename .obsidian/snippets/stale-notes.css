@@ -1,0 +1,9 @@
+/* Grey out + italicize file names tagged with "stale" */
+/* Supercharged Links exposes tags via data-link-tags attribute */
+.tree-item-inner [data-link-tags*="stale"],
+.nav-file-title[data-link-tags*="stale"] .nav-file-title-content,
+[data-link-tags*="stale"] {
+  color: var(--text-muted);
+  opacity: 0.5;
+  font-style: italic;
+}

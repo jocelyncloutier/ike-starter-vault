@@ -1,0 +1,16 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "ai-summarized-dot",
+    "extended-colorschemes",
+    "compact-layout",
+    "stale-notes",
+    "notebook-navigator-tweaks",
+    "highlight-comments"
+  ],
+  "showRibbon": true,
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
+}

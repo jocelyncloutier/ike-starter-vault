@@ -1,0 +1,28 @@
+body {
+  --nn-theme-navitem-folder-note-name-decoration: none;
+  --nn-theme-navitem-folder-note-name-hover-decoration: none;
+  --nn-scroller-padding: 4px;
+  --nn-nav-item-padding-horizontal: 0px;
+}
+
+/* Override nav pane left padding */
+.nn-navigation-pane-scroller,
+.nn-shortcut-pinned-scroll {
+  padding-left: 2px;
+}
+
+/* Reduce left padding on pane header button bars */
+.nn-pane-header {
+  padding-left: 2px;
+}
+
+/* Reduce left padding on list pane breadcrumb/title */
+.nn-pane-header-title {
+  padding-left: 0px;
+}
+
+/* Reduce horizontal padding between header buttons */
+.nn-header-actions button.nn-icon-button {
+  padding: 0 4px;
+  min-width: 24px;
+}

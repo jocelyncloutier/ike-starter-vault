@@ -1,0 +1,66 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "x/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "x/Templates/default-note-template.md"
+    },
+    {
+      "folder": "+",
+      "template": "x/Templates/default-inbox-note-template.md"
+    },
+    {
+      "folder": "Efforts",
+      "template": "x/Templates/effort-template.md"
+    },
+    {
+      "folder": "Atlas",
+      "template": "x/Templates/map-template.md"
+    },
+    {
+      "folder": "Atlas/Notes",
+      "template": "x/Templates/note-template.md"
+    },
+    {
+      "folder": "Atlas/Sources",
+      "template": "x/Templates/source-template.md"
+    },
+    {
+      "folder": "Calendar/Weekly",
+      "template": "x/Templates/weekly-review-template.md"
+    },
+    {
+      "folder": "Calendar/Monthly",
+      "template": "x/Templates/monthly-review-template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

@@ -1,0 +1,82 @@
+/* === Compact Properties & Layout === */
+
+/* Reduce padding around entire properties container */
+.metadata-container {
+  padding-top: 2px !important;
+  padding-bottom: 0px !important;
+  gap: 0px !important;
+  row-gap: 0px !important;
+}
+
+/* Compact each property row — kill all spacing */
+.metadata-container .metadata-property {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  min-height: unset !important;
+  line-height: 1.4 !important;
+  gap: 0px !important;
+}
+
+/* Target the properties list/grid container */
+.metadata-container .metadata-properties {
+  gap: 0px !important;
+  row-gap: 0px !important;
+}
+
+/* Shrink the "Properties" header */
+.metadata-container .metadata-properties-heading {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  font-size: 0.8em !important;
+}
+
+/* Shrink "+ Add property" button area */
+.metadata-container .metadata-add-button {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  min-height: unset !important;
+}
+
+/* Reduce gap between properties block and first heading */
+.markdown-preview-sizer > div:first-child,
+.cm-sizer > .metadata-container {
+  margin-bottom: 0 !important;
+}
+
+/* Reduce top margin on first heading after frontmatter */
+.markdown-rendered h2:first-of-type,
+.cm-content .HyperMD-header-2:first-of-type {
+  margin-top: 0.3em !important;
+}
+
+/* Reduce spacing above tables — reading view */
+.markdown-rendered table {
+  margin-top: 0 !important;
+}
+
+/* Reduce spacing above tables — live preview / edit view */
+.cm-table-widget {
+  margin-top: 0 !important;
+}
+.HyperMD-table-row {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+/* Collapse the empty line before a table row in live preview */
+.cm-line:has(+ .HyperMD-table-row) {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 0 !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  font-size: 0 !important;
+}
+/* Also target the first table row itself */
+.HyperMD-table-row-0 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}

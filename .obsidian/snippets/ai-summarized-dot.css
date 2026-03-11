@@ -1,0 +1,12 @@
+/* Adds a green dot before file names that have the "ai-summarized" tag */
+/* Supercharged Links uses data-link-tags attribute */
+/* Matches both Notebook Navigator (.tree-item-inner) and default nav (.nav-file-title) */
+.tree-item-inner [data-link-tags*="ai-summarized"]::before,
+.nav-file-title[data-link-tags*="ai-summarized"] .nav-file-title-content::before,
+[data-link-tags*="ai-summarized"]::before {
+  content: "●";
+  color: #10b981;
+  font-size: 0.6em;
+  margin-right: 4px;
+  vertical-align: middle;
+}

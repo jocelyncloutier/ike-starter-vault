@@ -1,0 +1,4 @@
+/* Highlight %%comments%% in the editor using the same style as ==highlight== */
+.cm-comment {
+  background-color: var(--text-highlight-bg);
+}

@@ -1,0 +1,9 @@
+# Obsidian workspace (changes every session)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian trash
+.trash/
+
+# OS files
+.DS_Store
