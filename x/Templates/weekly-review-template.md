@@ -1,6 +1,8 @@
 ---
 created: <% tp.date.now("YYYY-MM-DD") %>
 authorship: human
+tags:
+  - type/weekly
 ---
 ## Week Overview
 

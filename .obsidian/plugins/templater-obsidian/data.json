@@ -39,6 +39,10 @@
       "template": "x/Templates/source-template.md"
     },
     {
+      "folder": "Calendar",
+      "template": "x/Templates/daily-note-template.md"
+    },
+    {
       "folder": "Calendar/Weekly",
       "template": "x/Templates/weekly-review-template.md"
     },
