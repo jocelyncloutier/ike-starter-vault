@@ -1,4 +1,13 @@
-# IKE Starter Vault
+---
+created: 2026-03-11
+authorship: ai-generated
+map: ["[[Getting Started Map]]"]
+tags:
+  - topic/ike
+---
+## Context
+
+What this vault is and how to share it with someone else. If you're already here, you've completed setup — this note is useful for passing the vault along to others.
 
 A ready-to-use [Obsidian](https://obsidian.md) vault with a clean folder structure, note templates, and built-in AI support. This vault is pre-configured to work with Claude — so you can have natural-language conversations with your notes from day one. Open it and start capturing — no setup required.
 
@@ -10,7 +19,7 @@ Download and install [Obsidian](https://obsidian.md/download) (free).
 
 Click the green **Code** button → **Download ZIP** (last option in the list). Unzip it and rename the folder to `MyVault` (or whatever you'd like to call your vault).
 
-<img src="x/Attachments/github-download.png" width="800">
+![[github-download.png|800]]
 
 **Create a folder to store your vault, then move it there:**
 - **macOS** — Create `~/Obsidian/` in your home folder, then move your vault folder there: `~/Obsidian/MyVault/`
@@ -18,15 +27,15 @@ Click the green **Code** button → **Download ZIP** (last option in the list). 
 
 Open Obsidian → **Open folder as vault** → select `~/Obsidian/MyVault/` (or your Windows equivalent).
 
-<img src="x/Attachments/open-folder-as-vault.png" width="600">
+![[open-folder-as-vault.png|600]]
 
 When prompted, click **Trust author and enable plugins**.
 
-<img src="x/Attachments/trust-author.png" width="600">
+![[trust-author.png|600]]
 
 A Settings window will open automatically — close it to see your vault.
 
-<img src="x/Attachments/settings-close.png" width="800">
+![[settings-close.png|800]]
 
 The vault opens on the Getting Started guide. Here's what to explore first:
 - Click any date on the calendar (left panel) to create a daily note
@@ -42,7 +51,7 @@ This vault is designed to work with [Claude Desktop](https://claude.ai/download)
 2. Open Claude Desktop and select the **Cowork** tab (not Chat or Code)
 3. Select your vault folder when prompted
 
-<img src="x/Attachments/cowork-setup.png" width="600">
+![[cowork-setup.png|600]]
 
 ### Try these first prompts
 
@@ -55,7 +64,3 @@ This vault is designed to work with [Claude Desktop](https://claude.ai/download)
 - [Obsidian documentation](https://help.obsidian.md)
 - [Claude Desktop and Cowork](https://claude.ai/download)
 - New to Obsidian? [This intro video](https://www.youtube.com/watch?v=DbsAQSIKQXk) is a good place to start
-
-## Versioning
-
-This vault is versioned with git tags. See [Releases](https://github.com/jocelyncloutier/ike-starter-vault/releases) for the changelog.

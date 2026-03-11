@@ -8,6 +8,10 @@ tags:
 
 Your orientation to this vault. Start with the Vault Guide, then follow the Getting Started steps.
 
+## About
+
+- [[About This Vault]] — What this vault is, how to download and share it, how to set up AI
+
 ## Understanding the Vault
 
 - [[IKE Vault Guide]] — What IKE is, how the ACE folders work, key concepts
