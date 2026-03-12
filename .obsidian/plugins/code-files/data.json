@@ -1,0 +1,20 @@
+{
+  "extensions": [
+    "css",
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "py",
+    "json",
+    "sh",
+    "log"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "theme": "default",
+  "overwriteBg": true
+}

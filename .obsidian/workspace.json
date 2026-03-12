@@ -110,6 +110,18 @@
             }
           },
           {
+            "id": "claudian-leaf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "pinned": true,
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
             "id": "outline-leaf",
             "type": "leaf",
             "state": {
@@ -181,12 +193,12 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 435,
-    "collapsed": true
+    "width": 460
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,17 +209,14 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "notebook-navigator:Notebook Navigator": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "claudian:Open Claudian": false,
+      "code-files:Create Code File": false
     }
   },
   "active": "welcome-leaf",
   "lastOpenFiles": [
     "Atlas/Notes/About This Vault.md",
-    "x/Attachments/cowork-setup.png",
-    "x/Attachments/settings-close.png",
-    "x/Attachments/trust-author.png",
-    "x/Attachments/open-folder-as-vault.png",
-    "x/Attachments/github-download.png",
     "Atlas/Getting Started Map.md"
   ]
 }

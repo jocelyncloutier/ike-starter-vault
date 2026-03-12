@@ -6,17 +6,21 @@ A ready-to-use [Obsidian](https://obsidian.md) vault with a clean folder structu
 
 Download and install [Obsidian](https://obsidian.md/download) (free).
 
-## Step 2 — Download the Vault
+## Step 2 — Download and Place the Vault
 
 Click the green **Code** button → **Download ZIP** (last option in the list). Unzip it and rename the folder to `MyVault` (or whatever you'd like to call your vault).
 
 <img src="x/Attachments/github-download.png" width="800">
 
 **Create a folder to store your vault, then move it there:**
-- **macOS** — Create `~/Obsidian/` in your home folder, then move your vault folder there: `~/Obsidian/MyVault/`
-- **Windows** — Create `C:\Users\YourName\Obsidian\`, then move your vault folder there: `C:\Users\YourName\Obsidian\MyVault\`
+- **macOS** — Create `~/Obsidian/` in your home folder, then move your vault there: `~/Obsidian/MyVault/`
+- **Windows** — Create `C:\Users\YourName\Obsidian\`, then move your vault there: `C:\Users\YourName\Obsidian\MyVault\`
 
-Open Obsidian → **Open folder as vault** → select `~/Obsidian/MyVault/` (or your Windows equivalent).
+Remember where you put the vault — you'll need this path in Step 3.
+
+## Step 3 — Open in Obsidian
+
+Open Obsidian → **Open folder as vault** → select your vault folder (e.g., `~/Obsidian/MyVault/` on macOS or `C:\Users\YourName\Obsidian\MyVault\` on Windows).
 
 <img src="x/Attachments/open-folder-as-vault.png" width="600">
 
@@ -28,24 +32,58 @@ A Settings window will open automatically — close it to see your vault.
 
 <img src="x/Attachments/settings-close.png" width="800">
 
-The vault opens on the Getting Started guide. Here's what to explore first:
-- Click any date on the calendar (left panel) to create a daily note
-- Open the **Efforts** folder and create a new note to track a project or goal
-- Browse **Atlas** to see the maps and reference notes included in the vault
+## Step 4 — Set Up Claude (Recommended)
 
-## Step 3 — Add AI (Optional but Recommended)
+Claude is the AI assistant that helps you manage this vault. You interact with it through **Claudian**, a chat sidebar built into Obsidian — no terminal knowledge needed after initial setup.
 
-This vault is designed to work with [Claude Desktop](https://claude.ai/download) and Cowork. Cowork lets you have conversations with Claude that read and write directly to your vault. Note: Cowork requires a Claude subscription.
+### 4a — Install Claude Code
 
-**To set it up:**
-1. Download and install [Claude Desktop](https://claude.ai/download)
-2. Open Claude Desktop and select the **Cowork** tab (not Chat or Code)
-3. Select your vault folder when prompted
+Claude Code is the engine behind Claudian. Install it once:
 
-<img src="x/Attachments/cowork-setup.png" width="600">
+**macOS** — open Terminal, paste this, press Enter:
+```
+curl -fsSL https://claude.ai/install.sh | bash
+```
 
-### Try these first prompts
+**Windows** — open PowerShell, paste this, press Enter:
+```
+irm https://claude.ai/install.ps1 | iex
+```
 
+Log in with your Claude account when prompted (requires a Pro, Max, or Teams subscription). Verify with `claude doctor`.
+
+### 4b — Connect Claude to Your Vault
+
+Still in the terminal, navigate to your vault and start Claude Code:
+
+**macOS:**
+```
+cd ~/Obsidian/MyVault
+claude
+```
+
+**Windows:**
+```
+cd C:\Users\YourName\Obsidian\MyVault
+claude
+```
+
+Replace `MyVault` with whatever you named your vault folder in Step 2.
+
+### 4c — Configure Claudian
+
+Once Claude Code is running, type:
+```
+/setup-claudian
+```
+
+This configures the Claudian sidebar automatically. Close the terminal when done — you won't need it again.
+
+### 4d — Use Claudian
+
+In Obsidian, the Claudian sidebar should be pinned in the right panel. If you don't see it: **Cmd+P** (macOS) or **Ctrl+P** (Windows) → type "Claudian" → select "Open Claudian."
+
+**Try these first prompts:**
 - *"What's in this vault?"* — Claude will orient you to the structure
 - *"Create today's daily note"* — Creates a formatted daily note
 - *"Create a note about [something you're thinking about]"* — Claude creates a properly structured note with links
@@ -53,7 +91,7 @@ This vault is designed to work with [Claude Desktop](https://claude.ai/download)
 ## Learn More
 
 - [Obsidian documentation](https://help.obsidian.md)
-- [Claude Desktop and Cowork](https://claude.ai/download)
+- [Claude Code setup guide](https://docs.anthropic.com/en/docs/claude-code/setup)
 - New to Obsidian? [This intro video](https://www.youtube.com/watch?v=DbsAQSIKQXk) is a good place to start
 
 ## Versioning

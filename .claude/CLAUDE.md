@@ -6,12 +6,15 @@ An **IKE (Integrated Knowledge Environment)** vault — an AI-native personal kn
 
 Ideas flow through the **ARC workflow**: **Add** (capture to inbox) → **Relate** (AI links to maps and other notes) → **Communicate** (produce outputs — emails, documents, summaries, decisions).
 
-Two apps, clear roles:
+Three tools, clear roles:
 
-| App | Role |
+| Tool | Role |
 |---|---|
-| **Claude** (Cowork or Claude Code) | AI interaction — conversations, processing, synthesis |
 | **Obsidian** | Visual editing — read notes, edit notes, navigate the graph, daily notes |
+| **Claudian** (Obsidian sidebar) | In-Obsidian AI — conversations, processing, synthesis without leaving the app |
+| **Cowork** (Claude Desktop) | Outside-Obsidian AI — for work that doesn't start from a note |
+
+Claudian and Cowork both use Claude Code underneath. They read the same CLAUDE.md, use the same skills, and access the same MCP servers. The difference is purely the interface.
 
 ## Folder Structure (ACE)
 
@@ -267,6 +270,24 @@ When asked to review comments in a note:
 4. When a comment is ambiguous or requires a judgment call, ask for clarification before changing
 5. Remove the `%%...%%` markers once addressed
 6. If a comment has implications for other notes (e.g., "the one-pager needs different framing"), leave a visible callout or note in the doc rather than silently propagating changes
+
+## Obsidian CLI
+
+The Obsidian CLI (`obsidian`) talks to the running Obsidian app. It exposes the live link graph, search index, and sync status — things that can't be derived from files alone.
+
+**When to use the CLI:**
+- Graph queries: `obsidian backlinks`, `obsidian links`, `obsidian orphans`, `obsidian deadends`, `obsidian unresolved`
+- Tag and property queries: `obsidian tags sort=count counts`, `obsidian properties`, `obsidian search`
+- Vault hygiene: orphan detection, unresolved link detection, tag sprawl audit
+
+**Known limitation:** `obsidian tasks daily` and `obsidian tasks daily todo` are hardcoded to the core Daily Notes plugin. This vault uses Notebook Navigator — those commands don't work here. Use direct file access for daily notes (`Calendar/YYYY-MM-DD.md`).
+
+**When NOT to use the CLI:**
+- File creation and editing — use Write/Edit tools (faster, more flexible)
+- Bulk file processing — Grep/Glob across hundreds of files is faster than CLI one at a time
+- Git operations — CLI has nothing for version control
+
+**Requires Obsidian to be running.** If a CLI command fails with a connection error, fall back to direct file access.
 
 ## AI Responsibilities
 

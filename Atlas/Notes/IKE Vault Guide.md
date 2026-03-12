@@ -1,5 +1,6 @@
 ---
 created: 2026-03-10
+updated: 2026-03-12
 authorship: ai-generated
 map: ["[[Getting Started Map]]"]
 tags:
@@ -10,7 +11,7 @@ tags:
 
 IKE (Integrated Knowledge Environment) is a system where AI does the organizational work that kills most personal knowledge management systems. You capture your thoughts, notes, and ideas. Claude handles the filing, linking, formatting, and synthesis.
 
-Two apps work together: **Obsidian** is where you read, edit, and navigate your notes visually. **Claude** (via Cowork or Claude Code) is where you have conversations that create, update, and connect notes across the vault.
+Three tools work together: **Obsidian** is where you read, edit, and navigate your notes visually. **Claudian** (Obsidian sidebar) is where you have AI conversations without leaving the app. **Cowork** (Claude Desktop) is an alternative for AI work outside Obsidian. Both Claudian and Cowork use Claude Code underneath — same engine, same understanding of your vault.
 ## How the Vault Is Organized
 
 The vault uses the **ACE framework** — five top-level folders that organize by headspace, not by project or role:

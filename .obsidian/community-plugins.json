@@ -4,5 +4,7 @@
   "obsidian-tasks-plugin",
   "notebook-navigator",
   "templater-obsidian",
-  "settings-search"
+  "settings-search",
+  "claudian",
+  "code-files"
 ]

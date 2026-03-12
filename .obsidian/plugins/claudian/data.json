@@ -1,0 +1,7 @@
+{
+  "clientPath": "",
+  "mediaFolder": "x/Attachments",
+  "vaultConfinement": true,
+  "permissionMode": "default",
+  "blockedCommands": "rm -rf,rmdir,del,format,mkfs,dd,shutdown,reboot"
+}
