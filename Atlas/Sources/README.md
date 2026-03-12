@@ -1,4 +1,11 @@
-# IKE Starter Vault
+---
+created: 2026-03-12
+authorship: ai-assisted
+map: ["[[Getting Started Map]]"]
+tags:
+  - topic/ike
+---
+## IKE Starter Vault
 
 A ready-to-use [Obsidian](https://obsidian.md) vault with a clean folder structure, note templates, and built-in AI. Pre-configured to work with Claude — have natural-language conversations with your notes from day one.
 

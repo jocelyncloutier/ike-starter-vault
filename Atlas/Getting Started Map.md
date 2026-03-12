@@ -11,6 +11,7 @@ Your orientation to this vault. Start with the Vault Guide, then follow the Gett
 ## About
 
 - [[About This Vault]] — What this vault is, how to download and share it, how to set up AI
+- [[README]] — GitHub repo README with install instructions
 
 ## Understanding the Vault
 
