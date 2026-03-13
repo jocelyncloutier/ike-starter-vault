@@ -15,7 +15,7 @@ Open Claude Desktop → **Code** tab
 
 **Paste this prompt:**
 
-> Download the IKE starter vault from https://github.com/jocelyncloutier/ike-starter-vault (zip, main branch). Unzip it to ~/Obsidian/MyVault/ on macOS or C:\Users\%USERNAME%\Obsidian\MyVault\ on Windows. Important: the zip contains hidden directories (.obsidian, .claude) that must be included — use `cp -a` or `rsync -a`, not `cp -R` with a glob.
+> Download the IKE starter vault from https://github.com/jocelyncloutier/ike-starter-vault (zip, main branch). Unzip it to ~/Obsidian/MyVault/ on macOS or C:\Users\%USERNAME%\Obsidian\MyVault\ on Windows. Important: the zip contains hidden directories (.obsidian, .claude) that must be included — use `cp -a` or `rsync -a`, not `cp -R` with a glob. When done, tell me to go back to the README for next steps.
 
 Claude will download and unzip the vault. When it's done, **switch to the vault folder:**
 
