@@ -13750,6 +13750,10 @@ function getPathAccessType(candidatePath, allowedContextPaths, allowedExportPath
   const vaultReal = normalizePathForComparison(resolveRealPath(vaultPath));
   const normalizedCandidate = normalizePathBeforeResolution(candidatePath);
   const absCandidate = path.isAbsolute(normalizedCandidate) ? normalizedCandidate : path.resolve(vaultPath, normalizedCandidate);
+  const unresolvedCandidate = normalizePathForComparison(absCandidate);
+  if (unresolvedCandidate === vaultReal || unresolvedCandidate.startsWith(vaultReal + "/")) {
+    return "vault";
+  }
   const resolvedCandidate = normalizePathForComparison(resolveRealPath(absCandidate));
   if (resolvedCandidate === vaultReal || resolvedCandidate.startsWith(vaultReal + "/")) {
     return "vault";

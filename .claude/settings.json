@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(obsidian *)"
+      "Bash(obsidian *)",
+      "Bash(.venv/bin/python3 *)"
     ]
   }
 }

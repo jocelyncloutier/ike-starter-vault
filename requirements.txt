@@ -1,0 +1,4 @@
+PyYAML
+pypandoc
+python-docx
+markdownify

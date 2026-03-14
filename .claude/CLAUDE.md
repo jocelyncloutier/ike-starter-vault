@@ -314,6 +314,26 @@ When creating, formatting, or reviewing any note:
 2. **Verify** each rule against the actual file content, line by line.
 3. **When reviewing**, report only issues you can tie to a specific rule in this file and a specific line number in the note. If you can't point to both, don't flag it.
 
+## Python Virtual Environment
+
+A Python venv provides packages for scripts and skills. Set up via `/setup-venv` (one-time).
+
+The venv is always at `.venv` at the vault root (gitignored, excluded from Obsidian Sync). Use `.venv/bin/python3` for all Python operations:
+
+```bash
+.venv/bin/python3 x/scripts/format-note.py path/to/note.md
+```
+
+On Windows, use `.venv\Scripts\python.exe` instead.
+
+**Available scripts:**
+
+| Script | Purpose | Usage |
+|---|---|---|
+| `x/scripts/format-note.py` | Format notes per vault conventions | `.venv/bin/python3 x/scripts/format-note.py [--dry-run] file.md` |
+
+**If a script fails with "No such file" or "python3 not found"**, the venv hasn't been set up. Run `/setup-venv` first.
+
 ## Shared Memory
 
 Claude's memory file is `.claude/memory/MEMORY.md` inside this vault. At the start of each session, read it for persistent context. Update it when new stable patterns are confirmed — tool paths, recurring preferences, conventions that have evolved past what CLAUDE.md covers.
