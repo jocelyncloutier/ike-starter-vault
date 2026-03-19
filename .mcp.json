@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "type": "http",
+      "url": "https://workspace-mcp-866172746429.us-central1.run.app/mcp"
+    }
+  }
+}
