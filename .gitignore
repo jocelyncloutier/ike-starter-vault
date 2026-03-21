@@ -1,14 +1,28 @@
-# Obsidian workspace-mobile (changes every session on mobile)
+# Obsidian workspace (unique per device, changes constantly)
+.obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
 # Obsidian trash
 .trash/
 
-# Claude Code sessions
-.claude/sessions/
-
-# Python virtual environment
-.venv/
-
 # OS files
 .DS_Store
+
+# Microsoft Office temp files
+~$*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code session data
+.claude/sessions/
+.claude/todos.json
+
+# Claude Code local settings (personal, not shared)
+.claude/settings.local.json
+
+# Claude Code worktrees (embedded git repos, break git add)
+**/worktrees/
