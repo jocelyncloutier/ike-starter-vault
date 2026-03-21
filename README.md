@@ -9,33 +9,40 @@ A ready-to-use [Obsidian](https://obsidian.md) vault with a clean folder structu
 
 ## Install
 
-Open Claude Desktop → **Code** tab
+### Step 1 — Download the vault
 
-<img src="x/Attachments/Pasted image 20260312154426.png" alt="Claude Desktop Code tab" />
+[**Download IKE Starter Vault (zip)**](https://github.com/jocelyncloutier/ike-starter-vault/archive/refs/heads/main.zip)
 
-**Paste this prompt:**
+![[Pasted image 20260321112609.png|600]]
+### Step 2 — Unzip
 
-> Download the IKE starter vault from https://github.com/jocelyncloutier/ike-starter-vault (zip, main branch). Unzip it to ~/Obsidian/MyVault/ on macOS or C:\Users\%USERNAME%\Obsidian\MyVault\ on Windows. Important: the zip contains hidden directories (.obsidian, .claude) that must be included — use `cp -a` or `rsync -a`, not `cp -R` with a glob. When done, tell me to go back to the README for next steps.
+Unzip the downloaded file (double click on the .zip file). Rename the folder from `ike-starter-vault-main` to `MyVault` (or any name you like) and move it to:
+- **macOS:** `~/Obsidian/MyVault/`
+- **Windows:** `C:\Users\YourName\Obsidian\MyVault\`
 
-Claude will download and unzip the vault. When it's done, **switch to the vault folder:**
+You can move it anywhere you want on your computer. We recommend the location above and the guide assume that location.
+### Step 3 — Open in Obsidian
 
-1. Click **New session** in the left sidebar
-2. Click the folder name at the bottom-left of the screen
-3. Select **Choose a different folder**
-4. Navigate to the vault folder (`~/Obsidian/MyVault/`) and select it
+1. Open Obsidian
+2. Click **==Open==** next to "==**Open folder as vault**=="
+3. Navigate to your vault folder (`~/Obsidian/MyVault/`) and select it
 
-The folder name at the bottom-left should now show **MyVault**. Paste this prompt:
+<img src="x/Attachments/Pasted image 20260312172900.png" alt="Obsidian vault chooser" width="500" />
 
-> Run `which claude` (macOS/Linux) or `where claude` (Windows) to find the path to the `claude` binary. Open the file `.obsidian/plugins/claudian/data.json` and set the `clientPath` value to that path. Then open the vault in Obsidian by running: `open "obsidian://choose-vault"`
+Obsidian will ask you to trust the plugins — click **Trust author and enable plugins**. The vault comes with 8 pre-configured plugins.
 
-You will see this:
+### Step 4 — Configure Claudian
 
-<img src="x/Attachments/Pasted image 20260312172900.png" alt="Obsidian vault chooser" width="600" />
+Claudian is the AI sidebar in Obsidian. It needs to know where Claude Code is installed on your machine.
 
-Click on "Open" next to "**Open folder as vault**"
-* Select the folder ~/Obsidian/MyVault and click Open button.
+1. Open the Claudian panel in the right sidebar
+2. Type `/setup-claudian` and press Enter
+3. Claudian will detect the Claude CLI path and configure itself
+4. Restart Obsidian when prompted
 
-Claude configures everything and you create the Obsidian vault from the downloaded folder. Go crazy!
+## You're Ready
+
+The **Getting Started Map** is your landing page — it links to everything you need, including connecting Google Workspace (Gmail, Calendar, Drive).
 
 ## Why IKE?
 

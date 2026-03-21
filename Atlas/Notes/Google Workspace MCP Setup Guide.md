@@ -23,28 +23,28 @@ Google Workspace MCP connects Claude to your Google account. Once set up, you ca
 
 Everything happens through conversation — no need to switch apps.
 
-**Prerequisites**
-- Claude Desktop installed and signed in (https://claude.com/download)
 ## Setup Steps
+### Step 1 — Install Claude Desktop
 
-### Step 1 — Open Claude Desktop Settings
+If you haven't already, download and install Claude Desktop from [claude.com/download](https://claude.com/download). Launch it and sign in to your Claude account.
+### Step 2 — Open Claude Desktop Settings
 
 Click your profile icon in the bottom-left corner of Claude Desktop.
 
-![[Pasted image 20260321091014.png|320]]
+![[Pasted image 20260321091014.png|260]]
 
 Select **Settings**.
-### Step 2 — Go to Connectors
+### Step 3 — Go to Connectors
 
 In Settings, click **Connectors**.
 
 ![[Pasted image 20260321091109.png|320]]
-### Step 3 — Go to Customize
+### Step 4 — Go to Customize
 
 At the top of the Connectors screen, click **Go to customize**.
 
 ![[Pasted image 20260321091142.png|600]]
-### Step 4 — Add a Custom Connector
+### Step 5 — Add a Custom Connector
 
 Click the **+** (plus sign) button.
 
@@ -61,7 +61,7 @@ Fill in the details:
 ![[Pasted image 20260321091334.png|600]]
 
 Click **Add**.
-### Step 5 — Connect and Authenticate
+### Step 6 — Connect and Authenticate
 
 After adding, you'll see the new connector in the list.
 
@@ -79,7 +79,7 @@ Your web browser will open. Select your Google account and approve the permissio
 There are 2 approval steps in the browser. When done, Claude Desktop reopens showing the connector as connected.
 
 ![[Pasted image 20260321101400.png|600]]
-### Step 6 — Test It
+### Step 7 — Test It
 
 Open a new chat in Claude Desktop and type: **"What is the subject of my most recent Gmail email?"**
 
@@ -90,7 +90,7 @@ The first connection takes about 20 seconds. You may see a permission prompt —
 ![[Pasted image 20260321091954.png|500]]
 
 If Claude returns real data, you're set.
-### Step 7 — Configure Permissions (Optional)
+### Step 8 — Configure Permissions (Optional)
 
 Go back to **Settings → Connectors** and click **Configure** on the Google Workspace (IKE) connector.
 
