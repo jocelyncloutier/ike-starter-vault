@@ -4,6 +4,9 @@
 # Obsidian trash
 .trash/
 
+# Claude Code sessions
+.claude/sessions/
+
 # Python virtual environment
 .venv/
 
