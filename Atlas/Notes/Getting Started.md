@@ -18,6 +18,9 @@ This vault is an **IKE (Integrated Knowledge Environment)** — a system where A
 | **Obsidian** | Reading notes, editing, navigating the graph, daily notes |
 | **Claudian** (right sidebar) | Talking to Claude — creating notes, processing captures, research, drafting |
 | **Cowork** (Claude Desktop) | Using Claude outside Obsidian — research, brainstorming, multi-app work |
+## Connect Google Workspace
+
+Want Claude to read your email, check your calendar, and work with Google Docs? Follow the [[Google Workspace MCP Setup Guide]] — it takes about 5 minutes.
 ## Meet Claudian
 
 The **Claudian** tab in the right sidebar is your AI assistant. Try these first conversations:

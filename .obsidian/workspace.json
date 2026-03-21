@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 600
+    "width": 583.5
   },
   "right": {
     "id": "right-sidebar",
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460
+    "width": 487.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,9 +214,24 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "welcome-leaf",
+  "active": "nn-leaf",
   "lastOpenFiles": [
-    "Atlas/Notes/About This Vault.md",
-    "Atlas/Getting Started Map.md"
+    "Atlas/Notes/Google Workspace MCP Setup Guide.md",
+    "x/Attachments/Pasted image 20260321102556.png",
+    "x/Attachments/Pasted image 20260321101827.png",
+    "x/Attachments/ike_logo_transparent.svg",
+    "x/Attachments/Pasted image 20260321101400.png",
+    "Atlas/Getting Started Map.md",
+    "Atlas/Notes/When to Use What.md",
+    "Atlas/Notes/IKE Vault Guide.md",
+    "Atlas/Notes/Getting Started.md",
+    "Calendar/2026-03-10.md",
+    "x/Attachments/Pasted image 20260321093752.png",
+    "x/Attachments/Pasted image 20260321093053.png",
+    "x/Attachments/Pasted image 20260321092212.png",
+    "x/Attachments/Pasted image 20260321092129.png",
+    "x/Attachments/Pasted image 20260321091954.png",
+    "x/Attachments/Pasted image 20260321091844.png",
+    "Atlas/Notes/About This Vault.md"
   ]
 }
