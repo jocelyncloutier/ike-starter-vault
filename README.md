@@ -1,6 +1,6 @@
 # IKE Starter Vault
 
-<center><img src="x/Attachments/Pasted%20image%2020260321102556.png" alt="Download zip" width="400" /></center>
+<center><img src="x/Attachments/Pasted%20image%2020260321102556.png" alt="Download zip" width="200" /></center>
 
 A ready-to-use [Obsidian](https://obsidian.md) vault with a clean folder structure, note templates, and built-in AI. Pre-configured to work with Claude — have natural-language conversations with your notes from day one.
 
