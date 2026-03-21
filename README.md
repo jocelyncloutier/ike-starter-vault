@@ -25,10 +25,16 @@ If you don't already have it, download and install [Obsidian](https://obsidian.m
 ### Step 4 — Open the vault in Obsidian
 
 1. Open Obsidian
-2. Click **Open** next to "**Open folder as vault**"
-3. Navigate to your vault folder (`~/Obsidian/MyVault/`) and select it
+2. Click on the **File** menu
 
-<img src="x/Attachments/Pasted%20image%2020260312172900.png" alt="Obsidian vault chooser" width="500" />
+   <img src="x/Attachments/Pasted%20image%2020260321121354.png" alt="File menu" width="240" />
+
+3. Click in the menu on **Open Vault...**
+4. Click **Open** button next to "**Open folder as vault**"
+
+   <img src="x/Attachments/Pasted%20image%2020260312172900.png" alt="Obsidian vault chooser" width="400" />
+
+5. Navigate to your vault folder (`~/Obsidian/MyVault/`) and select it
 
 Obsidian will ask you to trust the plugins — click **Trust author and enable plugins**. The vault comes with 8 pre-configured plugins.
 
