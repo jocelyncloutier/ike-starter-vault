@@ -4,7 +4,7 @@ authorship: ai-generated
 tags:
   - topic/ike
 ---
-<center><span class="claudian-embedded-image"><img src="app://7eda5438c62a4cb10fb3ade8a419c1b3f34a/Users/jocelyncloutier/Obsidian/ike-starter-vault/x/Attachments/Pasted%20image%2020260321102556.png?1774113956270" alt="Pasted image 20260321102556" loading="lazy" style="width: 300px;"></span></center>
+<center><span class="claudian-embedded-image"><img src="../x/Attachments/Pasted%20image%2020260321102556.png" alt="Pasted image 20260321102556" loading="lazy" style="width: 300px;"></span></center>
 > [!important] Complete your setup
 > Connect Claude to your Google account to unlock Gmail, Calendar, Drive, and more.
 > **[[Google Workspace MCP Setup Guide]]** — takes about 5 minutes.
