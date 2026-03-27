@@ -6,18 +6,28 @@ map: ["[[Getting Started Map]]"]
 tags:
   - topic/ike
 ---
-> Welcome to your IKE vault. If you're reading this, setup is done — everything is working. This guide helps you get oriented.
+> Welcome to your IKE vault. This guide walks you through setup and helps you get oriented.
+## Set Up Claude
+
+Claude is the AI that powers this vault. You need Claude Desktop installed — it includes both the desktop app and the Claude Code CLI that Claudian uses.
+
+1. Download and install [Claude Desktop](https://claude.ai/download)
+2. Open the **Claudian** panel in the right sidebar (click the Claude icon)
+3. Type `/setup-claudian` and press Enter — it detects the CLI path automatically
+4. Restart Obsidian when prompted
+
+After restart, Claudian is ready. Try typing **"What's in this vault?"** to confirm it's working.
 ## What You Have
 
 This vault is an **IKE (Integrated Knowledge Environment)** — a system where AI handles the organizational work that kills most note-taking systems. You capture fast and messy. Claude files, links, formats, and synthesizes.
 
 **Three tools work together:**
 
-| Tool | What it's for |
-|---|---|
-| **Obsidian** | Reading notes, editing, navigating the graph, daily notes |
+| Tool                         | What it's for                                                               |
+| ---------------------------- | --------------------------------------------------------------------------- |
+| **Obsidian**                 | Reading notes, editing, navigating the graph, daily notes                   |
 | **Claudian** (right sidebar) | Talking to Claude — creating notes, processing captures, research, drafting |
-| **Cowork** (Claude Desktop) | Using Claude outside Obsidian — research, brainstorming, multi-app work |
+| **Cowork** (Claude Desktop)  | Using Claude outside Obsidian — research, brainstorming, multi-app work     |
 ## Connect Google Workspace
 
 Want Claude to read your email, check your calendar, and work with Google Docs? Follow the [[Google Workspace MCP Setup Guide]] — it takes about 5 minutes.

@@ -40,18 +40,9 @@ If you don't already have it, download and install [Obsidian](https://obsidian.m
 
 Obsidian will ask you to trust the plugins — click **Trust author and enable plugins**. The vault comes with 8 pre-configured plugins.
 
-### Step 5 — Configure Claudian
-
-Claudian is the AI sidebar in Obsidian. It needs to know where Claude Code is installed on your machine.
-
-1. Open the Claudian panel in the right sidebar
-2. Type `/setup-claudian` and press Enter
-3. Claudian will detect the Claude CLI path and configure itself
-4. Restart Obsidian when prompted
-
 ## You're Ready
 
-The **Getting Started Map** is your landing page — it links to everything you need, including connecting your Google account (Gmail, Calendar, Drive).
+Open the **Getting Started Map** — it's your landing page. It walks you through setting up Claude, connecting your Google account, and using the vault.
 
 ## Why IKE?
 
@@ -67,5 +58,5 @@ IKE flips this: **AI does the maintenance.** You capture fast and messy. Claude 
 ## Learn More
 
 - [Obsidian documentation](https://help.obsidian.md)
-- [Claude Code setup](https://docs.anthropic.com/en/docs/claude-code/setup)
+- [Claude Desktop](https://claude.ai/download) — includes Claude Code CLI
 - [Obsidian Web Clipper](https://obsidian.md/clipper) — save web pages directly to your vault

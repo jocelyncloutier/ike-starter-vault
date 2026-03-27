@@ -5,13 +5,17 @@ tags:
   - topic/ike
 ---
 <center><span class="claudian-embedded-image"><img src="../x/Attachments/Pasted%20image%2020260321102556.png" alt="Pasted image 20260321102556" loading="lazy" style="width: 300px;"></span></center>
-> [!important] Complete your setup
-> Connect Claude to your Google account to unlock Gmail, Calendar, Drive, and more.
+> [!warning] You're not done yet — complete setup first
+> The vault is open but Claude isn't connected yet. Without this step, the AI features won't work.
+> **[[Getting Started#Set Up Claude]]** — takes about 2 minutes.
+
+> [!tip] Optional — Connect Google Workspace
+> Once Claude is working, you can connect your Google account to unlock Gmail, Calendar, Drive, and more.
 > **[[Google Workspace MCP Setup Guide]]** — takes about 5 minutes.
 
 ## Getting Started
 
-- [[Getting Started]] — Your first steps after opening the vault
+- [[Getting Started]] — Set up Claude, then explore the vault
 - [[When to Use What]] — When to use Obsidian vs Claude, with example prompts
 
 ## Understanding the Vault
